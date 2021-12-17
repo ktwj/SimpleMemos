@@ -1,0 +1,20 @@
+.my-card-body{
+    height : calc( 100vh - (110px) );
+}
+.my-card-body2{
+    height : calc( 100vh - (163px) );
+}
+.elipsis{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.row{
+    margin:0 3%;
+}
+@media screen and (max-width:768px){
+    .my-card-body{
+        height:auto;
+        max-height:50vh;
+    }
+}
