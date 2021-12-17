@@ -14,7 +14,7 @@ class CreateTagsTable extends Migration
     public function up()
     {
         Schema::create('tags', function (Blueprint $table) {
-            $table->unsignedBigInteger('id');
+            $table->unsignedBigInteger('id',true);
             $table->string('name');
             $table->unsignedBigInteger('user_id');
             $table->softDeletes();
